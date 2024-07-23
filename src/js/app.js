@@ -57,7 +57,7 @@ function render(variables = {}) {
             }"><i class="fab fa-github"></i></a></li>
 
             <li><a href="https://linkedin.com/${
-              variables.linkedin == null ? "feed/" : variables.linkedin
+              variables.linkedin == null ? "in/" : variables.linkedin
             }"><i class="fab fa-linkedin"></i></a></li>
             <li><a href="https://instagram.com/${
               variables.instagram == null
